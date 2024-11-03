@@ -5,7 +5,9 @@ Ivo Vargas
 2024-10-30
 
 Compilar:
-nvc++ integral_a.c -fopenmp -o integral_c.o
+nvc++ integral_a.cpp -fopenmp -o integral_a.o
+ou
+g++ integral_a.cpp -fopenmp -o integral_a.o
 
 Exemplo de integral para calcular areas
 */
