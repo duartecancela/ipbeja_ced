@@ -1,12 +1,8 @@
 # Compilar e correr o código utilizando o CMake
 ``` bash
-> mkdir build
+> cmake .
 
-> cd build
-
-> cmake build ../
-
-> make
+> cmake --build .
 
 > ./farao
 ```
